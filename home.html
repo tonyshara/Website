@@ -1,5 +1,38 @@
 <html>
   <head>
+
+    <!--classes-->
+    <style>
+    p.solid {
+      border-style: solid;
+      background-color: #e7e7e7; color: black;
+    }
+
+    /*button*/
+
+    body{
+      background-image: url("img1.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    button{
+      background-color: #e7e7e7; color: black;;
+      border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      float: left;
+    }
+    button.settings{
+
+    }
+    </style>
+  </head>
+  <body>
     <p>
       <a href= "https://www.linkedin.com/in/anthony-shara-813678140">
         <img border="0" alt="linkedin" src="linkedInLogo.png" width="25" height="25">
@@ -7,16 +40,11 @@
       <a href= "https://github.com/tonyshara/myGitHub">
         <img border="0" alt="github" src="github.png" width="25" height="25">
       </a>
-      <h1>Tony Shara</h1>
     </p>
-    <!--about me-->
-      <!--Who I am-->
-    <p> [INSERT LINEDIN BIO HERE]
-    </p>
-    <b>
     <!--<button type = "button"> my skills </button>-->
-    <form>
 
+    <form>
+      <!--
       <input type = "button" value = "my skills" onclick = "window.location.href='skills.html'" />
 
       <input type = "button" value = "completed classes" onclick = "window.location.href='completedClasses.html'" />
@@ -26,7 +54,31 @@
       <input type = "button" value = "my projects" onclick = "window.location.href='myProjects.html'" />
 
       <input type = "button" value = "my experiences" onclick = "window.location.href='experience.html'" />
+    -->
+    <button href="https://www.w3schools.com">my skils</button>
+
+    <button href="https://www.w3schools.com">completed classes</button>
+
+    <button href="https://www.w3schools.com">intended classes</button>
+
+    <button href="https://www.w3schools.com">my projects</button>
+
+    <button href="https://www.w3schools.com">my experiences</button>
+
+    <button href="https://www.w3schools.com">current</button>
 
     </form>
-  </head>
+    <!--about me-->
+      <!--Who I am-->
+      <h1 style="text-align:center; background-color: #e7e7e7; color: black;">
+        Tony Shara
+      </h1>
+
+      <h2 style = "text-align:center">
+        <p class = "solid">
+          I am an Electrical Engineering and Computer Science Major at UC Berkeley. I am a software
+          design intern for a SaaS start up company based in Orange County, California and Bangalore, India
+        </p>
+  </h2>
+</body>
 </html>
