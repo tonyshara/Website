@@ -1,42 +1,109 @@
 <html>
-
+<div>
   <form>
     <input type = "button" value = "home" onclick = "window.location.href='home.html'" />
   </form>
+</div>
 
+  <style>
+
+    /*link*/
+    a:link{
+      text-decoration: none;
+      color:white;
+    }
+    a:visited{
+      color:white;
+    }
+
+    /*table*/
+    table, tr, td{
+      /*border:1px solid black;*/
+      color:white;
+      /*border-collapse: collapse;*/
+    }
+
+      /*button*/
+      input.button{
+        background-color: #9e9e9e; color: black;;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0px 0px;
+        float: left;
+      }
+
+    /*body*/
+    body{
+      background-image: url("img1.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+  </style>
+
+<body>
   <div>
-    <h3> Classes I plan to take: </h3>
-    <table border = 1>
+
+    <table>
+      <caption><h1><b>My Interests</b></h1></caption>
+
       <tr>
-        <td> EE 128: Feedback Control </td>
         <td>
-          <a href = "https://www2.eecs.berkeley.edu/Courses/EE120/"> EE 120 </a>
+          <h2><a href = "https://www2.eecs.berkeley.edu/Courses/EE128/">
+          <strong>EE 128</strong></a>: Feedback Control</h2>
+        </td>
+        <td>
+           <img src="cf2.jpg" alt="drone flying"width="25%"height="25%"></img> <!--w link, image enlarges when hovered above-->
         </td>
       </tr>
+
       <tr>
-        <td> EE 196: Mechatronics lab </td>
         <td>
-          <a href = "https://www2.eecs.berkeley.edu/Courses/EE196/"> EE 196 </a>
+          <h2><a href = "https://www2.eecs.berkeley.edu/Courses/EE16B/">
+            <strong>EE 196</strong></a>: Mechatronics lab</h2>
+        </td>
+        <td>
+          <img src="mc1.jpg" alt="surgical robot"width="25%"></img> <!--w link, image enlarges when hovered above-->
         </td>
       </tr>
+
       <tr>
-        <td> CS 170: Algorithms </td>
         <td>
-          <a href = "https://www2.eecs.berkeley.edu/Courses/EE16B/"> CS 170 </a>
+          <h2><a href = "https://www2.eecs.berkeley.edu/Courses/EE16B/">
+            <strong>CS 170</strong></a>: Algorithms</h2>
+          </td>
+          <td>
+            <img src="alg1.png" alt="surgical robot"width="25%"></img> <!--w link, image enlarges when hovered above-->
+          </td>
+        </tr>
+
+      <tr>
+        <td>
+          <h2><a href = "https://www2.eecs.berkeley.edu/Courses/CS188/">
+            <strong>CS 188</strong></a>: AI</h2>
+        </td>
+        <td>
+          <img src="ai1.jpg" alt="surgical robot"width="25%"></img> <!--w link, image enlarges when hovered above-->
         </td>
       </tr>
+
       <tr>
-        <td> CS 188: AI </td>
         <td>
-          <a href = "https://www2.eecs.berkeley.edu/Courses/CS1888/"> CS 188 </a>
+          <h2><a href = "https://www2.eecs.berkeley.edu/Courses/EECS106A/">
+            EECS 106a</a>: Intro to Robotics</h2>
+        </td>
+        <td>
+          <img src="rob1.jpg" alt="surgical robot"width="25%"></img> <!--w link, image enlarges when hovered above-->
         </td>
       </tr>
-      <tr>
-        <td> EECS 106a: Intro to Robotics </td>
-        <td>
-          <a href = "https://www2.eecs.berkeley.edu/Courses/EECS106A/"> EECS 106a </a>
-        </td>
-      </tr>
+
     </table>
+
   </div>
+</body>
 </html>
