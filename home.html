@@ -5,28 +5,29 @@
     <!--classes-->
     <style>
 
+    #body{
+      background-color:#3d3d3d;
+      margin-left:80;
+      margin-right:80;
+      margin-top:80;
+      padding: 30px 30px 30px 30px;
+    }
     /*paragraphs*/
     p.solid{
       border-style: solid;
       background-color: #e7e7e7; color: black;
-      margin-top: 500px;
-      margin-left: 100px;
-      margin-right: 100px;
       text-align: left;
+      padding: 10px;
     }
 
     /*title*/
-    h1.title{
+    #title{
       text-align:center;
-      background-color: #e7e7e7; color: black;
-      margin-left: 500px;
-      margin-right: 500px;
-      margin-bottom: 0px;
     }
 
     /*button*/
     input.button{
-      background-color: #9e9e9e; color: black;;
+      background-color: #9e9e9e; color: black;
       border: none;
       color: black;
       padding: 15px 32px;
@@ -34,7 +35,7 @@
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
-      margin: 0px 0px;
+      margin: 10px 0px;
       float: left;
     }
 
@@ -51,24 +52,19 @@
 
     </style>
   </head>
-  <div>
-    <a href= "https://www.linkedin.com/in/anthony-shara-813678140">
-      <img border="0" alt="linkedin" src="linkedInLogo.png" width="25" height="25">
-    </a>
-    <a href= "https://github.com/tonyshara/myGitHub">
-      <img border="0" alt="github" src="github.png" width="25" height="25">
-    </a>
-  </div>
+  <body>
 
+    <!--linkedin and github links in top left corner-->
     <div>
-      <p>
-        <h1 class = "title">
-          Tony Shara
-        </h1>
-      </p>
+      <a href= "https://www.linkedin.com/in/anthony-shara-813678140">
+        <img border="0" alt="linkedin" src="linkedInLogo.png" width="25" height="25">
+      </a>
+      <a href= "https://github.com/tonyshara/myGitHub">
+        <img border="0" alt="github" src="github.png" width="25" height="25">
+      </a>
     </div>
 
-    <div class = "button">
+    <div class="button">
       <input class = "button" type = "button" value = "my skills" onclick = "window.location.href='skills.html'" />
       <input class = "button" type = "button" value = "completed classes" onclick = "window.location.href='completedClasses.html'" />
       <input class = "button" type = "button" value = "intended classes" onclick = "window.location.href='intendedClasses.html'" />
@@ -76,28 +72,41 @@
       <input class = "button" type = "button" value = "my experiences" onclick = "window.location.href='experience.html'" />
     </div>
 
-    <!--picture-->
+    <div id="body">
 
-    <div style = "margin-top:5px">
-      <h2 style = "text-align:left">
-        <p class = "solid">
-          Electrical Engineering and Computer Science Major at UC Berkeley. Software design intern for a SaaS start up
-          company based in Orange County, California and Bangalore, India.
-          <br />
-          <br />
-          Lorem ipsum dolor sit amet, voluptaria liberavisse sea id, cum partiendo torquatos id. Qui error tollit an. Cum
-          te modus justo imperdiet, duo ne unum soluta molestie. Eirmod veritus sensibus his te, pro quidam iriure inermis id.
-          Omnes epicurei intellegebat in sed, eu dicit tempor his, probatus facilisi vis ei. Fugit nostro offendit ad vis.
-          <br />
-          <br />
-          Ius invidunt platonem ad, duo no aeterno nominati conceptam. Ex eos docendi albucius signiferumque, mei vide erat
-          conceptam ne. No est hinc decore viderer, in fabellas vituperata per. His veritus temporibus te, quo ex augue consulatu.
+      <div>
+        <p>
+          <h1 id="title">
+            Tony Shara
+          </h1>
         </p>
-      </h2>
+      </div>
+
+      <img src="mainimg1.jpg" style="display:block; margin: 0px auto;">
+
+      <div style = "margin-top:5px">
+        <h2 style = "text-align:left">
+          <p class = "solid">
+            Electrical Engineering and Computer Science Major at UC Berkeley. Software design intern for a SaaS start up
+            company based in Orange County, California and Bangalore, India.
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet, voluptaria liberavisse sea id, cum partiendo torquatos id. Qui error tollit an. Cum
+            te modus justo imperdiet, duo ne unum soluta molestie. Eirmod veritus sensibus his te, pro quidam iriure inermis id.
+            Omnes epicurei intellegebat in sed, eu dicit tempor his, probatus facilisi vis ei. Fugit nostro offendit ad vis.
+            <br />
+            <br />
+            Ius invidunt platonem ad, duo no aeterno nominati conceptam. Ex eos docendi albucius signiferumque, mei vide erat
+            conceptam ne. No est hinc decore viderer, in fabellas vituperata per. His veritus temporibus te, quo ex augue consulatu.
+          </p>
+        </h2>
+      </div>
+
+      <div>
+        <img src = "img3.jpg"/>
+      </div>
+
     </div>
 
-    <div>
-      <img src = "img3.jpg"/>
-    </div>
-
+  </body>
 </html>
