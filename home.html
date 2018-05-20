@@ -8,7 +8,7 @@
     /*site navigation*/
     a.nav:link{
       text-decoration: none;
-      color:white;
+      color:black;
     }
     a.nav:visited{
       color:white;
@@ -41,7 +41,6 @@
       text-align: left;
       padding-left: 10px;
       padding-right: 10px;
-
     }
 
     /*title*/
@@ -63,6 +62,19 @@
       font-size: 16px;
       float: left;
     }
+    button.this-button{
+      position: relative;
+      top: 10px;
+      background-color: #d52121; color: black;
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      float: left;
+    }
+
 
 
 
@@ -89,6 +101,7 @@
 
     <!--links in top left corner-->
     <div class="button">
+      <button type="button" class="this-button"><a href="home.html" class="nav">home</a></button>
       <button type="button" class="button"><a href="intendedClasses.html" class="nav">intended classes</a></button>
       <button type="button" class="button"><a href="myProjects.html" class="nav">my projects</a></button>
     </div>
